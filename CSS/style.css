@@ -1,0 +1,64 @@
+
+
+
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 230, 233);
+    align-items: center;
+    padding: 10px;
+}
+
+header img{
+    width: 150px;
+}
+
+nav li{
+    display: inline;
+    padding: 60px;
+    font-size: 30px;
+  
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(214, 157, 157);
+}
+
+nav a:hover {
+    color: rgb(175, 130, 130);
+    text-decoration: underline;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+}
+
+.ramos{
+    text-align: center;
+}
+.ramos img{
+    width: 250px;
+}
+
+.targeta{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 20px;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgb(214, 157, 157);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+}
