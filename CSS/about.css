@@ -1,0 +1,24 @@
+.historia{
+    text-align: center;
+}
+
+.pasos img{
+    float: right;
+    border-radius: 20px;
+    width: 200px;
+    margin: 20px;
+}
+
+.slogan{
+    border-radius: 30px;
+    width: 400px;
+}
+
+.pasos{
+    display: flex;
+    align-items: center;
+}
+
+.pasos p{
+    font-size: 20px;
+}

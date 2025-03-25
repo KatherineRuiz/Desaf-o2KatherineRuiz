@@ -22,6 +22,7 @@ header{
     background-color: rgb(248, 230, 233);
     align-items: center;
     padding: 10px;
+    box-shadow: 0px 5px 10px rgb(214, 157, 157);
 }
 
 header img{
@@ -69,10 +70,12 @@ nav a:hover {
 .P1{
     text-align: center;
     background-color: rgb(250, 244, 245);
+    border-radius: 20px;
 }
 
 .titulo{
     background-color: rgb(248, 230, 233);
+    box-shadow: 0px 5px 10px;
 }
 
 .masVendido{
@@ -105,21 +108,4 @@ footer{
     background-color: rgb(248, 230, 233);
     padding: 30px;
     text-align: center;
-}
-
-.targeta{
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    border-radius: 20px;
-    width: 250px;
-    overflow: hidden;
-    box-shadow: 0px 5px 10px rgb(214, 157, 157);
-    margin: 20px;
-}
-
-.card img{
-    width: 100%;
 }
